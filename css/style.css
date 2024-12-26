@@ -229,6 +229,12 @@ body {
   border: none;
 }
 
+.card-img-top {
+  width: 100%; /* Ensures all images take up the full width of the card */
+  height: 200px; /* Fixed height for uniformity */
+  object-fit:cover; /* Ensures images are scaled properly without distortion */
+}
+
 /* testimonial section starts */
 .testimonial img:hover {
   transform: scale(1.2, 1.2);
